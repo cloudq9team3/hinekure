@@ -1,0 +1,19 @@
+<script src="jquery.1.6.4.min.js"></script>
+<body>
+<div>
+  <div>one</div>
+  <div>two</div>
+  <div>three</div>
+</div>
+<div>
+  <div>one</div>
+  <div>two</div>
+  <div>three</div>
+</div>
+</body>
+<script>
+$( document).ready( function() {
+$( 'body').children().children().css({ float: 'left', width '32%', margin: '1px 2px', border: '1px solid #000'})
+$( 'body').children().append('<div style="clear:both;"></div>');
+})
+</script>
